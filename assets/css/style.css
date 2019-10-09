@@ -1,0 +1,58 @@
+    html {
+    scroll-behavior: smooth;
+    }
+    body{
+        background-image: url(../images/background.png);
+    }
+    #slides{
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+    nav{
+        background-color: #0B0C10;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+      }
+      section{
+          color: white;
+          margin-bottom: 5%;
+      }
+
+      a:link, h4{
+          text-decoration: none;
+          color: lightgray;
+      }
+      a:link:hover{
+          text-decoration: none;
+          color: grey;
+      }
+      .jumbotron{
+        background-color: #000;
+      }
+      .banner{
+        background-image: url(../images/pexels-photo-1363876.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+      }
+      .sec1 {
+          height: 500px;
+      }
+      .contact {
+          height: 400px;
+      }
+      #home {
+          margin-bottom: 5%;
+      }
+      @media screen and (max-width: 425px) {
+          .sec1 {
+              height: 900px;
+              margin-bottom: 50%
+          }
+      }
