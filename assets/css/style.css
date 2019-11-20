@@ -18,7 +18,7 @@
         width: 100%;
         z-index: 3;
       }
-      section{
+      section, #contact{
           color: white;
           margin-bottom: 5%;
       }
