@@ -52,11 +52,10 @@
       }
       @media screen and (max-width: 425px) {
           .sec1 {
-              height: 900px;
-              margin-bottom: 50%
+              margin-bottom: 130%
           }
       }
-      @media screen and (max-width: 575px) {
+      @media screen and (max-width: 575px) and (min-width: 426px) {
         #contact {
             margin-top: 750px;
         }
