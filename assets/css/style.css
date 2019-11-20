@@ -57,8 +57,7 @@
           }
       }
       @media screen and (max-width: 575px) {
-        .sec1 {
-            height: 900px;
-            margin-bottom: 60%
+        #contact {
+            margin-top: 750px;
         }
     }
