@@ -51,7 +51,7 @@
           margin-bottom: 5%;
       }
       @media screen and (max-width: 425px) {
-          .sec1 {
+          #projects {
               margin-bottom: 130%
           }
       }
